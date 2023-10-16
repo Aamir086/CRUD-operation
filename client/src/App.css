@@ -1,0 +1,190 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a.nav-link.navcolor {
+  color: #969595;
+  font-size: small;
+  font-weight: bold;
+}
+
+.signup,
+.signin {
+  width: 50%;
+  background-color: white;
+  border-radius: 1rem;
+  padding: 1rem 1.3rem;
+  box-shadow: 0 3rem 5rem rgba(113, 112, 112, 0.3);
+}
+
+.contact_form_container {
+  box-shadow: 0 3rem 5rem rgba(113, 112, 112, 0.3);
+}
+
+label {
+  margin-left: 5px;
+  display: inline-block;
+  position: absolute;
+  /* margin-top: 2px; */
+}
+
+::placeholder {
+  position: absolute;
+  /* margin-left: 1.3rem; */
+  margin-top: .3rem;
+  font-size: small;
+}
+
+input.padd {
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  width: 18rem;
+  border-color: grey;
+  border-width: thin;
+  padding-left: 25px;
+}
+
+.signup-image,
+.signin-image {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+}
+
+img.logosigup {
+  height: 15rem;
+  width: 15rem;
+}
+
+.signup-image-link {
+  font-size: smaller;
+  position: relative;
+  bottom: 3%;
+  text-decoration: underline !important;
+  max-width: fit-content;
+}
+
+.signin-image-link {
+  font-size: smaller;
+  position: relative;
+  top: -15px;
+  text-decoration: underline !important;
+  max-width: fit-content;
+}
+
+/* .facebook {
+  color: rgb(15, 15, 135);
+}
+
+.twitter {
+  color: #007bff;
+}
+
+.google {
+  background-color: red;
+  color: white;
+} */
+
+.contact_info_item {
+  width: -webkit-fill-available;
+  border: solid #f5f5f5;
+  padding: .6rem;
+}
+
+.contact_info_content {
+  font-size: 12px;
+}
+
+.contact_phone {
+  font-size: x-large;
+  /* color: #007bff; */
+}
+
+.contact_email {
+  font-size: x-large;
+}
+
+.contact_address {
+  height: 1.2rem;
+  width: 1.2rem;
+}
+
+.contact_form_container {
+  box-shadow: 0 3rem 5rem rgba(113, 112, 112, 0.3);
+  border-radius: .8rem;
+  /* border: solid #f5f5f5; */
+}
+
+.contact_info_text {
+  color: #acabab;
+}
+
+.input_f {
+  border: solid #f5f5f5;
+}
+
+.contact_form_message {
+  width: 100%;
+  border: solid #f5f5f5;
+}
+
+.input_f::placeholder,
+.text_feild::placeholder {
+  color: #acabab;
+}
+
+.home-div {
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.welcome {
+  color: #007bff;
+}
+
+.imgg {
+  height: 11rem;
+}
+
+.webdev {
+  font-size: 13px;
+  color: #007bff;
+}
+
+.links {
+  text-decoration: none;
+  color: black;
+}
+
+.nav-link {
+  color: black;
+}
+
+.emp-profile {
+  width: 60% !important;
+  /* max-width: 60%; */
+  box-shadow: 0 3rem 5rem rgba(113, 112, 112, 0.3);
+  padding: 2rem;
+  border-radius: 1rem;
+}
+
+.edit_pro_btn {
+  /* max-width: fit-content; */
+}
+
+@media only screen and (max-width: 768px) {
+
+  /* .signup {
+
+  } */
+  input.padd {
+    width: 12rem;
+  }
+
+  .signup-image {
+    display: none;
+  }
+}
